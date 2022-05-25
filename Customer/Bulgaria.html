@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <head>
+        <title>Front-end development website </title>
+
+    </head>
+    <body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark  shadow mb-5">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" style="color: white" href="index.php">Home
+            <span class="sr-only">(current)</span>
+          </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" style="color: white" href="Add entity.php">Add Your Picture</a>
+    </li>
+
+    
+    <li class="nav-item">
+      <a class="nav-link" style="color: white" href="weather.html">Weather!</a>
+        </li>
+        
+
+    <li class="nav-item">
+      <a style="font-weight: bold; color: white" class="nav-link" href="Sign Up.php">Sign Up</a>
+    </li>
+
+    <li class="nav-item">
+      <a style="font-weight: bold; color: white" class="nav-link" href="Sign In.php">Sign In</a>
+    </li>
+
+    </ul>
+
+</div>
+  </nav>
+  
+  <div class="container">
+    <div class="card border-0 shadow my-5">
+      <div class="card-body p-5">
+        <h1 class="font-weight-light">Bulgaria</h1>
+        <p class="lead">Republic of Bulgaria, is a country in Southeast Europe. It is bordered by Romania to the north, Serbia and North Macedonia to the west, Greece and Turkey to the south, and the Black Sea to the east. The capital and largest city is Sofia; other major cities are Plovdiv, Varna and Burgas. With a territory of 110,994 square kilometres, Bulgaria is Europe's sixteenth-largest country.</p>
+        <video class="video-fluid z-depth-1" autoplay loop controls muted>
+            <source src="video/Bulgaria.mp4" type="video/mp4" />
+          </video>
+<div class="container">
+
+    <h1 class="my-4">Hidden jems</h1>
+    <body onload="startTime()">
+
+      <div id="txt"></div>
+      
+      </body>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+        <img class="card-img-top" id="myImg" src="https://static.nationalgeographic.co.uk/files/styles/image_3200/public/ngts_web_st_likealocal_awl_bul0430_hr.jpg?w=1600&h=900" alt="">
+                
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Sofia</a>
+            </h4>
+            <p class="card-text">Sofia is the capital and largest city of Bulgaria. <div id="learnMSofia" class="collapse">
+              The city is situated in the eponymous valley at the foot of the Vitosha mountain in the western part of the country. 
+              The city is built west of the Iskar river, and has many mineral springs, such as the Sofia Central Mineral Baths. 
+              It has a humid continental climate.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMSofia">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myImgPlov" src="img/plovdiv.jpg">
+        <div id="myModalPlov" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgPlov">
+          <div id="captionPlov"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Plovdiv</a>
+            </h4>
+            <p class="card-text">Plovdiv is the second-largest city of Bulgaria, located in the historical region of Thrace.<div id="learnMPlovdiv" class="collapse"> It has a population of 346,893 as of 2018 and 675,000 in the greater metropolitan area. Plovdiv is the culture capital of Bulgaria. It is an important economic, transport, cultural, and educational center.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMPlovdiv">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myVarna" src="img/Varna.jpg" alt="">
+        <div id="myModalVarna" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgVarna">
+          <div id="captionVarna"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Varna</a>
+            </h4>
+            <p class="card-text">is the third-largest city in Bulgaria and the largest city <div id="learnMVarna" class="collapse">and seaside resort on the Bulgarian Black Sea Coast. 
+              Situated strategically in the Gulf of Varna, the city has been a major economic, social and cultural centre for almost three millennia.
+              Varna is an important centre for business, transportation, education, tourism, 
+              entertainment and healthcare. The city is referred to as the maritime capital of Bulgaria.</p>
+              </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMVarna">Learn more</button>
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+         <img class="card-img-top" id="imgTurn" src="img/veliko turnovo.jpg" alt="">
+        <div id="myModalTurnovo" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgTurnovo">
+          <div id="captionTurnovo"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Veliko Turnovo/Greater Turnovo</a>
+            </h4>
+            <p class="card-text">Veliko Tarnovo ("Great Tarnovo") is a town in north central Bulgaria.Often referred as the "City of the Tsars",<div id="learnMoreTurnovo" class="collapse"> Veliko Tarnovo is located on the Yantra River and is famously known as the historical capital of the Second Bulgarian Empire, attracting many tourists with its unique architecture. The old part of the town is situated on three hills, Tsarevets, Trapezitsa, and Sveta Gora, rising amidst the meanders of the Yantra..</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreTurnovo">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="RilaLakes" src="img/rila lakes.jpg" alt="">
+        <div id="myModalLakes" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgLakes">
+          <div id="captionLakes"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">The 7 Rila lakes</a>
+            </h4>
+            <p class="card-text">The Seven Rila Lakes are a group of glacial lakes, situated in the northwestern Rila Mountain 
+              in Bulgaria. They are the most visited group of lakes in Bulgaria.<div id="learnMoreLakes" class="collapse">Each lake carries a name associated with 
+              its most characteristic feature. The highest one is called Salzata ("The Tear") due to its clear waters that 
+              allow visibility in depth. The next one in height carries the name Okoto ("The Eye") after its almost 
+              perfectly oval form. Okoto is the deepest cirque lake in Bulgaria, with a depth of 37.5 m. Babreka ("The Kidney") 
+              is the lake with the steepest shores of the entire group.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreLakes">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="Borovets" src="img/borovets.jpg" alt="">
+        <div id="myModalBorovets" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgBorovets">
+          <div id="captionBorovets"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Borovets</a>
+            </h4>
+            <p class="card-text">Borovets is a popular Bulgarian mountain resort situated in Sofia Province, on the northern slopes of Rila, at an altitude of 1350 m.<div id="learnMore" class="collapse">
+              Borovets is the oldest Bulgarian winter resort originally established at the end of the 19th Century 
+              as a hunting place for the Bulgarian Kings gradually developing into a modern ski resort with hotels, restaurants, bars and a network of ski runs and lifts along 
+              the slopes of the Rila Mountains. Its the busiest winter resort during the winter
+            season and its very popular during the other seasons for hiking. </p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMore">Learn more</button>
+        </div> 
+      </div>
+    </div>
+      
+      
+  </div>
+  <style>
+
+    .map-wrapper {
+        max-width: 700px;
+    }
+    .googlemap {
+        width: 100%;
+    }
+
+</style>
+
+<center>
+<div  class = "map-wrapper">
+    <iframe class="googlemap" style=" width: 600; height: 500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002379.4283234896!2d23.300062895675335!3d42.70348445377699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a8fec1c85bf089%3A0xa01269bf4c10!2sBulgaria!5e0!3m2!1sen!2snl!4v1607456669726!5m2!1sen!2snl" width="950" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+      </div>
+    </div>
+</center>
+
+
+
+
+  
+  <script src="javascript/modalPop_up.js"></script>
+  <script>
+    // Get the modal. I couldnt manage to add one modal box 
+    var modal = document.getElementById("myModalPlov");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImgPlov");
+    var modalImg = document.getElementById("imgPlov");
+    var captionText = document.getElementById("captionPlov");
+    
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[1];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+    <script>
+      // Get the modal. I couldnt manage to add one modal box 
+      var modal = document.getElementById("myModalVarna");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myVarna");
+      var modalImg = document.getElementById("imgVarna");
+      var captionText = document.getElementById("captionVarna");
+      
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[2];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
+  
+  <script>
+    // Get the modal. I couldnt manage to add one modal box 
+    var modal = document.getElementById("myModalTurnovo");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("imgTurn");
+    var modalImg = document.getElementById("imgTurnovo");
+    var captionText = document.getElementById("captionTurnovo");
+    
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[3];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+
+<script>
+  // Get the modal. I couldnt manage to add one modal box 
+  var modal = document.getElementById("myModalLakes");
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("RilaLakes");
+  var modalImg = document.getElementById("imgLakes");
+  var captionText = document.getElementById("captionLakes");
+  
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[4];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <script>
+    // Get the modal. I couldnt manage to add one modal box 
+    var modal = document.getElementById("myModalBorovets");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Borovets");
+    var modalImg = document.getElementById("imgBorovets");
+    var captionText = document.getElementById("captionBorovets");
+    
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[5];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+  
+ </body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/italy.css">
+        <head>
+        <title>Front-end development website </title>
+
+    </head>
+    <body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark  shadow mb-5">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white" href="index.php">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white" href="Add entity.php">Add Your Picture</a>
+        </li>
+    
+        
+        <li class="nav-item">
+          <a class="nav-link" style="color: white" href="weather.html">Weather!</a>
+            </li>
+            
+    
+        <li class="nav-item">
+          <a style="font-weight: bold; color: white" class="nav-link" href="Sign Up.php">Sign Up</a>
+        </li>
+    
+        </ul>
+    
+    </div>
+      </nav>
+  
+  <div class="container">
+    <div class="card border-0 shadow my-5">
+      <div class="card-body p-5">
+        <h1 class="font-weight-light">Italy</h1>
+        <p class="lead"> Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. 
+            Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s "David" and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital. </p>
+        <video class="video-fluid z-depth-1" autoplay loop controls muted>
+            <source src="video/italia.mp4" type="video/mp4" />
+          </video>
+<div class="container">
+
+    <h1 class="my-4">Hidden jems</h1>
+    <body onload="startTime()">
+
+      <div id="txt"></div>
+      
+      </body>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+        <img class="card-img-top" id="myImg" src="img/italia1.jpg" alt="">
+                
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Rome</a>
+            </h4>
+            <p class="card-text">is the capital city and a special comune of Italy, as well as the capital of the Lazio region. The city has been a major <div id="learnMSofia" class="collapse">
+                human settlement for almost three millennia. With 2,860,009 residents in 1,285 km², it is also the country's most populated comune. it is also the country's most populated comune. It is the third
+                 most populous city in the European Union by population within city limits</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMSofia">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myImgPlov" src="img/milanoi.jpg">
+        <div id="myModalPlov" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgPlov">
+          <div id="captionPlov"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Milano</a> 
+            </h4>
+            <p class="card-text">a metropolis in Italy's northern Lombardy region, is a global capital of fashion and design. Home to the national stock exchange,<div id="learnMPlovdiv" class="collapse">
+                it’s a financial hub also known for its 
+                high-end restaurants and shops. The Gothic Duomo di Milano cathedral
+                 and the Santa Maria delle Grazie convent, housing Leonardo da Vinci’s mural “The Last Supper,” 
+                testify to centuries of art and culture.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMPlovdiv">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myVarna" src="img/sicily2.jpg" alt="">
+        <div id="myModalVarna" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgVarna">
+          <div id="captionVarna"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Sicily</a> 
+            </h4>
+            <p class="card-text">the largest Mediterranean island, is just off the "toe" of Italy's "boot."
+                 Its rich history is reflected in sites like the Valley of the Temples, <div id="learnMVarna" class="collapse"> the well-preserved ruins of 7 monumental, Doric-style Greek temples, and in the Byzantine mosaics at the Cappella Palatina, a former royal chapel in capital city Palermo.
+                 On Sicily’s eastern edge is Mount Etna, one of Europe’s highest active volcanoes.</p>
+              </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMVarna">Learn more</button>
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+         <img class="card-img-top" id="imgTurn" src="img/venice4.jpg" alt="">
+        <div id="myModalTurnovo" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgTurnovo">
+          <div id="captionTurnovo"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Venice</a>
+            </h4>
+            <p class="card-text">the capital of northern Italy’s Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea.<div id="learnMoreTurnovo" class="collapse"> 
+                It has no roads, just canals – including the Grand Canal thoroughfare – 
+                lined with Renaissance and Gothic palaces. The central square, Piazza San Marco,
+                 contains St. Mark’s Basilica, which is tiled with Byzantine mosaics,
+                 and the Campanile bell tower offering views of the city’s red roofs. 
+            </p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreTurnovo">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="RilaLakes" src="img/florence5.jpg" alt="">
+        <div id="myModalLakes" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgLakes">
+          <div id="captionLakes"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Florence</a>
+            </h4>
+            <p class="card-text">capital of Italy’s Tuscany region, is home to many masterpieces of Renaissance
+                art and architecture. One of its most iconic sights is the Duomo,<div id="learnMoreLakes" class="collapse">  a cathedral
+                     with a terracotta-tiled dome engineered by Brunelleschi and a bell tower by Giotto. The Galleria dell'Accademia displays 
+                     Michelangelo’s “David” sculpture. The Uffizi Gallery exhibits Botticelli’s “The Birth of Venus” and da Vinci’s “Annunciation.”
+           </p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreLakes">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="Borovets" src="img/naplessss.jpg" alt="">
+        <div id="myModalBorovets" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgBorovets">
+          <div id="captionBorovets"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Naples</a>
+            </h4>
+            <p class="card-text">a city in southern Italy, sits on the Bay of Naples. Nearby is Mount Vesuvius, 
+                the still-active volcano that destroyed nearby Roman town Pompeii. <div id="learnMore" class="collapse">
+                Dating to the 2nd millennium B.C.,
+                Naples has centuries of important art and architecture. The city's cathedral, the Duomo di San 
+                Gennaro, is filled with frescoes. Other major 
+                landmarks include the lavish Royal Palace and Castel Nuovo, a 13th-century castle. </p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMore">Learn more</button>
+        </div> 
+      </div>
+    </div>
+      
+      
+  </div>
+    <style>
+
+      .map-wrapper {
+          max-width: 700px;
+      }
+      .googlemap {
+          width: 100%;
+      }
+  
+  </style>
+  
+  <center>
+  <div  class = "map-wrapper">
+      <iframe class="googlemap" style=" width: 600; height: 500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5625606.555614173!2d8.608475844150622!3d41.961793586365054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fe82448dd203%3A0xe22cf55c24635e6f!2sItaly!5e0!3m2!1sen!2snl!4v1610735651304!5m2!1sen!2snl" width="1000" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+        </div>
+      </div>
+  </center>
+  
+  <script src="javascript/modalPop_up.js"></script>
+  <script>
+    // Get the modal. I couldnt manage to add one modal box 
+    var modal = document.getElementById("myModalPlov");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImgPlov");
+    var modalImg = document.getElementById("imgPlov");
+    var captionText = document.getElementById("captionPlov");
+    
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[1];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+    <script>
+      // Get the modal. I couldnt manage to add one modal box 
+      var modal = document.getElementById("myModalVarna");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myVarna");
+      var modalImg = document.getElementById("imgVarna");
+      var captionText = document.getElementById("captionVarna");
+      
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[2];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
+  
+  <script>
+    // Get the modal. I couldnt manage to add one modal box 
+    var modal = document.getElementById("myModalTurnovo");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("imgTurn");
+    var modalImg = document.getElementById("imgTurnovo");
+    var captionText = document.getElementById("captionTurnovo");
+    
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[3];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+
+<script>
+  // Get the modal. I couldnt manage to add one modal box 
+  var modal = document.getElementById("myModalLakes");
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("RilaLakes");
+  var modalImg = document.getElementById("imgLakes");
+  var captionText = document.getElementById("captionLakes");
+  
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[4];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <script>
+    // Get the modal. I couldnt manage to add one modal box 
+    var modal = document.getElementById("myModalBorovets");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Borovets");
+    var modalImg = document.getElementById("imgBorovets");
+    var captionText = document.getElementById("captionBorovets");
+    
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[5];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+  
+ </body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style_Greece.css">
+        <head>
+        <title>Front-end development website </title>
+
+    </head>
+    <body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark  shadow mb-5">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white" href="index.php">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white" href="Add entity.php">Add Your Picture</a>
+        </li>
+    
+        
+        <li class="nav-item">
+          <a class="nav-link" style="color: white" href="weather.html">Weather!</a>
+            </li>
+            
+    
+        <li class="nav-item">
+          <a style="font-weight: bold; color: white" class="nav-link" href="Sign Up.php">Sign Up</a>
+        </li>
+    
+        </ul>
+    
+    </div>
+      </nav>
+  
+  
+  <div class="container">
+    <div class="card border-0 shadow my-5">
+      <div class="card-body p-5">
+        <h1 class="font-weight-light">Greece</h1>
+        <p class="lead">  Greece,known as Hellas, is a country located in Southeast Europe. Its population is approximately 10.7 million as of 2018; Athens is its largest and capital city, followed by 
+          Thessaloniki. Situated on the southern tip of the Balkans, Greece is located at the crossroads of Europe, Asia, and Africa. 
+          It shares land borders with Albania to the northwest, North Macedonia and Bulgaria to the north, and Turkey to the northeast.</p>
+        <video class="video-fluid z-depth-1" autoplay loop controls muted>
+            <source src="video/Visit Greece.mp4" type="video/mp4" />
+          </video>
+<div class="container">
+
+    <h1 class="my-4">Hidden jems</h1>
+    <body onload="startTime()">
+
+      <div id="txt"></div>
+      
+      </body>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myImgAthens" src="img/greeece 3.jpg" alt="">
+          <div id="myModal2" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img012">
+            <div id="caption2"></div>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Athens</a>
+            </h4>
+            <p class="card-text"> Athens is the capital and largest city of Greece. Athens dominates the Attica 
+              region and is one of the world's oldest cities, <div id="learnMSofia" class="collapse">
+              with its recorded history spanning over 3,400 years and its earliest human presence started somewhere between the 11th and 7th BC.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMSofia">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myImg1" src="img/greece 2.jpg">
+            <div id="myModal1" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img011">
+              <div id="caption1"></div>
+            </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Thessaloniki</a> 
+            </h4>
+            <p class="card-text">Thessaloniki is located on the Thermaic Gulf, at the northwest corner of the Aegean Sea.<div id="learnMPlovdiv" class="collapse">It is bounded on the west
+              by the delta of the Axios. The municipality of Thessaloniki, the historical center, had a population of 325,182 in 2011, while the Thessaloniki Urban Area had a population of 824,676 and the 
+              Thessaloniki metropolitan area had 1,030,338 inhabitants in 2011.
+            </p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMPlovdiv">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+        <img class="card-img-top" id="myImg" src="img/Greece_4.jpg" alt="">
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Kavala</a>
+            </h4>
+            <p class="card-text">It is situated on the Bay of Kavala, across from the island of Thasos <div id="learnMVarna" class="collapse">and on the Egnatia motorway,
+               a one-and-a-half-hour drive to Thessaloniki (160 kilometres (99 miles) west) and a forty-minute drive to Drama (37 km (23 miles) north) and
+               Xanthi (56 km (35 miles) east). It is also about 150 kilometers west of Alexandroupoli..</p>
+              </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMVarna">Learn more</button>
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+         <img class="card-img-top" id="myImgCrete" src="img/greece_5.jpg" >
+          <div id="myModalCrete" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgCrete">
+            <div id="captionCrete"></div>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Crete</a>
+            </h4>
+            <p class="card-text">Crete is the largest and most populous of the Greek islands, the 88th largest island<div id="learnMoreTurnovo" class="collapse">in the world and the fifth largest island in the Mediterranean Sea, after Sicily, 
+              Sardinia, Cyprus and Corsica. It bounds the southern border of the Aegean Sea. Crete rests approximately 160 km  south of the Greek mainland. 
+              It has an area of 8,336 km2 and a coastline of 1,046 km.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreTurnovo">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="LarissaImg" src="img/greece_6.jpg" alt="">
+          
+          <div id="LarisModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgLaris">
+            <div id="Lariscaption"></div>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a  href="">Larrisa</a> 
+            </h4>
+            <p class="card-text">Larissa is the capital and largest city of the Thessaly region in Greece. 
+              It is the fifth-most populous city in Greece with a population of 144,651 according to the 2011 census.<div id="learnMoreLakes" class="collapse">It is a principal agricultural centre and a national transport hub, linked by
+                 road and rail with the port of Volos, the cities of Thessaloniki and AthensLegend has it that Achilles was born here. Hippocrates, the "Father of Medicine", died here.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreLakes">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+        <img class="card-img-top" id="MykonosIsla" src="img/greece_7.jpg" alt="">
+        <div id="MykModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgMyk">
+          <div id="MykCaption"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Mykonos</a>
+            </h4>
+            <p class="card-text">Mykonos is a Greek island, part of the Cyclades, lying between Tinos, Syros, Paros and Naxos.<div id="learnMore" class="collapse">
+               The island has an area of 85.5 square kilometres and rises to an elevation of 341 metres  at its highest point. 
+              Mykonos's nickname is "The Island of the Winds".That is due to the very strong winds that usually blow on the island. Tourism is a major industry and Mykonos is known for its vibrant nightlife and for being a
+               gay-friendly destination with many establishments catering for the LGBT community. </p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMore">Learn more</button>
+        </div> 
+      </div>
+    </div>
+      
+      
+  </div>
+    <style>
+
+      .map-wrapper {
+          max-width: 700px;
+      }
+      .googlemap {
+          width: 100%;
+      }
+  
+  </style>
+  
+  <center>
+  <div  class = "map-wrapper">
+      <iframe class="googlemap" style=" width: 600; height: 500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6433654.638142486!2d19.99061997534528!3d38.06029762134585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b4ac711716c63%3A0x363a1775dc9a2d1d!2sGreece!5e0!3m2!1sen!2snl!4v1610577749900!5m2!1sen!2snl" width="950" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+        </div>
+      </div>
+  </center>  
+    <script src="javascript/modalPop_up.js"></script>
+    <script>
+      // Get the modal. I couldnt manage to add one modal box 
+      var modal = document.getElementById("myModal1");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myImg1");
+      var modalImg = document.getElementById("img011");
+      var captionText = document.getElementById("caption1");
+      
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[1];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
+      <script>
+        // Get the modal
+        var modal = document.getElementById("myModal2");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImgAthens");
+        var modalImg = document.getElementById("img012");
+        var captionText = document.getElementById("caption2");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[2];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+              <script>
+        // Get the modal
+        var modal = document.getElementById("myModalCrete");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImgCrete");
+        var modalImg = document.getElementById("imgCrete");
+        var captionText = document.getElementById("captionCrete");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[3];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+        
+      
+
+      <script>
+// Get the modal
+var modal = document.getElementById("LarisModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("LarissaImg");
+var modalImg = document.getElementById("imgLaris");
+var captionText = document.getElementById("Lariscaption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[4];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+ 
+<script>
+  // Get the modal
+  var modal = document.getElementById("MykModal");
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("MykonosIsla");
+  var modalImg = document.getElementById("imgMyk");
+  var captionText = document.getElementById("MykCaption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[5];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  
+ </body>
+</html>

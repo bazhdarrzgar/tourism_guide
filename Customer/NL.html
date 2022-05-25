@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style_NL.css">
+        <head>
+        <title>Front-end development website </title>
+
+    </head>
+    <body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark  shadow mb-5">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white" href="index.php">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white" href="Add entity.php">Add Your Picture</a>
+        </li>
+    
+        
+        <li class="nav-item">
+          <a class="nav-link" style="color: white" href="weather.html">Weather!</a>
+            </li>
+            
+    
+        <li class="nav-item">
+          <a style="font-weight: bold; color: white" class="nav-link" href="Sign Up.php">Sign Up</a>
+        </li>
+    
+        </ul>
+    
+    </div>
+      </nav>
+  
+  <div class="container">
+    <div class="card border-0 shadow my-5">
+      <div class="card-body p-5">
+        <h1 class="font-weight-light">Netherlands</h1>
+        <p class="lead">  The Netherlands, informally Holland, is a country primarily located in Western
+           Europe and partly in the Caribbean, forming the largest constituent country of the Kingdom of the Netherlands.
+            In Europe, it consists of 12 provinces that border Germany to the east, Belgium to the south, and the North Sea to the northwest,
+             with maritime borders in the North Sea with those countries and the United Kingdom. In the Caribbean, it consists of three special 
+             municipalities: the islands of Bonaire, Sint Eustatius and Saba. The country's official language is Dutch, with West Frisian as a secondary official language in the province of Friesland,
+           and English and Papiamentu as secondary official languages in the Caribbean Netherlands.</p>
+        <video class="video-fluid z-depth-1" autoplay loop controls muted>
+            <source src="video/The NL.mp4" type="video/mp4" />
+          </video>
+<div class="container">
+
+    <h1 class="my-4">Hidden jems</h1>
+    <body onload="startTime()">
+
+      <div id="txt"></div>
+      
+      </body>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myImgAthens" src="img/nl-1.jpg" alt="">
+          <div id="myModal2" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img012">
+            <div id="caption2"></div>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Amsterdam</a>
+            </h4>
+            <p class="card-text"> Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled<div id="learnMSofia" class="collapse">
+              facades, legacies of the city’s 17th-century Golden Age. Its Museum District houses the Van Gogh Museum, works by Rembrandt and Vermeer at the Rijksmuseum, and modern art at the Stedelijk. Cycling is key to the city’s character, and there are numerous bike paths.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMSofia">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="myImg1" src="img/nl4.jpg">
+            <div id="myModal1" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img011">
+              <div id="caption1"></div>
+            </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Utrecht</a> 
+            </h4>
+            <p class="card-text"> Utrecht is a city in the Netherlands, known for its medieval center. It has tree-lined canals, Christian monuments<div id="learnMPlovdiv" class="collapse">and a venerable university. The iconic Domtoren, a 14th-century bell tower with city views, stands opposite the Gothic Cathedral of St. Martin on central Domplein square. 
+              The Museum Catharijneconvent shows religious art and artifacts in a former monastery. 
+            </p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMPlovdiv">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+        <img class="card-img-top" id="myImg" src="img/nl3.jpg" alt="">
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Eindhoven</a> 
+            </h4>
+            <p class="card-text">Eindhoven is a city in the province of North Brabant in the south Netherlands. Known as a technology and design hub, <div id="learnMVarna" class="collapse">it’s the birthplace of Philips electronics, which built the Philips Stadium, home to the PSV soccer team. The Philips Museum traces the company's design history. Nearby, the Van Abbemuseum focuses on art and design. Northwest, 
+              the former industrial complex Strijp-S houses design shops and restaurants.</p>
+              </div>
+              <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMVarna">Learn more</button>
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+         <img class="card-img-top" id="myImgCrete" src="img/nl5.jpg" >
+          <div id="myModalCrete" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgCrete">
+            <div id="captionCrete"></div>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">The Hague</a>
+            </h4>
+            <p class="card-text">The Hague is a city on the North Sea coast of the western Netherlands. Its Gothic-style Binnenhof (or Inner Court) complex is the seat of the Dutch parliament,<div id="learnMoreTurnovo" class="collapse"> and 16th-century Noordeinde Palace is the king’s workplace. The city is also home to the U.N.’s International Court of Justice,
+               headquartered in the Peace Palace, and the International Criminal Court.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreTurnovo">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" id="LarissaImg" src="img/nl6.jpg" alt="">
+          
+          <div id="LarisModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgLaris">
+            <div id="Lariscaption"></div>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a  href="">Rotterdam</a> 
+            </h4>
+            <p class="card-text"> Rotterdam is a major port city in the province of South Holland. The Maritime Museum's vintage ships and exhibits trace the city's seafaring history. The 17th-century
+               Delfshaven neighborhood is home to canalside shopping <div id="learnMoreLakes" class="collapse"> and Pilgrim Fathers Church,where pilgrims worshiped before sailing to America. After being almost completely 
+                 reconstructed following WWII, the city is now known for bold, modern architecture.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMoreLakes">Learn more</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card h-100">
+        <img class="card-img-top" id="MykonosIsla" src="img/NL2.jpg" alt="">
+        <div id="MykModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="imgMyk">
+          <div id="MykCaption"></div>
+        </div>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Maastricht</a> 
+            </h4>
+            <p class="card-text"> a university city on the southern tip of the Netherlands, is distinguished by its medieval-era architecture and vibrant cultural<div id="learnMore" class="collapse">
+               Tscene. In its cobbled old town, is the Gothic-style church Sint Janskerk, and the Romanesque Basilica of St. Servatius houses a significant collection of religious art.
+                On the banks of the Maas River, bisecting the city, lies futuristic-looking Bonnefanten art museum.</p>
+          </div>
+          <button type="button" class="btn btn-outline-info" data-toggle="collapse" data-target="#learnMore">Learn more</button>
+        </div> 
+      </div>
+    </div>
+      
+      
+  </div>
+    <style>
+
+      .map-wrapper {
+          max-width: 700px;
+      }
+      .googlemap {
+          width: 100%;
+      }
+  
+  </style>
+  
+  <center>
+  <div  class = "map-wrapper">
+      <iframe class="googlemap" style=" width: 600; height: 500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504542.7488137437!2d3.036928238280938!3d52.19173502356913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3db87e4bb%3A0xb3a175ceffbd0a9f!2sNetherlands!5e0!3m2!1sen!2snl!4v1610732906829!5m2!1sen!2snl" width="950" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+        </div>
+      </div>
+  </center>
+    <script src="javascript/modalPop_up.js"></script>
+    <script>
+      // Get the modal. I couldnt manage to add one modal box 
+      var modal = document.getElementById("myModal1");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myImg1");
+      var modalImg = document.getElementById("img011");
+      var captionText = document.getElementById("caption1");
+      
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[1];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
+      <script>
+        // Get the modal
+        var modal = document.getElementById("myModal2");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImgAthens");
+        var modalImg = document.getElementById("img012");
+        var captionText = document.getElementById("caption2");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[2];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+              <script>
+        // Get the modal
+        var modal = document.getElementById("myModalCrete");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImgCrete");
+        var modalImg = document.getElementById("imgCrete");
+        var captionText = document.getElementById("captionCrete");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[3];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+        
+      
+
+      <script>
+// Get the modal
+var modal = document.getElementById("LarisModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("LarissaImg");
+var modalImg = document.getElementById("imgLaris");
+var captionText = document.getElementById("Lariscaption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[4];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+ 
+<script>
+  // Get the modal
+  var modal = document.getElementById("MykModal");
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("MykonosIsla");
+  var modalImg = document.getElementById("imgMyk");
+  var captionText = document.getElementById("MykCaption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[5];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  
+ </body>
+</html>
