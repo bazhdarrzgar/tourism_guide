@@ -37,7 +37,7 @@
 
 Tourist guiding has an important and multifaceted role in contemporary tourism. A safe and quality experience offered by a guided tour involves the guide, tourists and the environment, and is fulfilled when all the three components interact at the same point in space and time. The role of guides in the tourism system distinguishes itself by its potential to manage and orchestrate tourist experiences, enhance destination image and implement the goals of responsible tourism. What guides present and interpret takes effect on the way in which their customers experience a place or attraction, understand local culture, engage in local activities and how they behave on the spot. As front-line professionals, information-givers and interpreters, the guides act as destination's representatives and "ambassadors" in the eyes of tourists. Tourist guiding is one of the important factors of successful presentation of destinations in contemporary tourism, affecting the resulting economic and social benefits *[[1]](https://www.researchgate.net/publication/337843300_TOURIST_GUIDES_IN_CONTEMPORARY_TOURISM)*.
 
-<div style="text-align: center;">
+<div align="center"> 
 
 ![image](https://www.themarketingblog.co.uk/wp-content/uploads/2016/07/elitedaily-lumina-study-abroad-799x400.jpg)
 
