@@ -1,7 +1,8 @@
 
-<div style="text-align: center;">
+<div align="center"> 
 
 ![image](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/83ed01ca-f383-41b4-9ecb-a316cf591deb/df63n9s-b4750c9c-92c2-4df7-834f-9962caebe7d4.png/v1/fill/w_631,h_813,q_80,strp/screenshot_from_2022_05_26_00_12_28_by_soyansoon21_df63n9s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODEzIiwicGF0aCI6IlwvZlwvODNlZDAxY2EtZjM4My00MWI0LTllY2ItYTMxNmNmNTkxZGViXC9kZjYzbjlzLWI0NzUwYzljLTkyYzItNGRmNy04MzRmLTk5NjJjYWViZTdkNC5wbmciLCJ3aWR0aCI6Ijw9NjMxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.jYeQp5o0pCwAX-Nt0U5UpIoiBsqap0gb59HAKr5je48)
+    
 </div>
 
 # Table Of Content
