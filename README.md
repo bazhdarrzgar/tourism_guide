@@ -326,3 +326,6 @@ these important sites *[[3]](https://nmssanctuaries.blob.core.windows.net/sanctu
     - *El-Menshawy, S. (2016). Effective rapport in tourist guiding: Interpretation of Themes. Journal of Socialomics, 5(3), 1-5*.
 
     - *Gardiner, M. (2008). Education in rural areas, Centre for Education Policy Development, (in South Africa), Available at http://www.cepd.org.za/files/CEPD_Issues_in_education_Education_in_rural_areas.pdf (accessed 27 November 2017)*.
+
+*[3] The tourism industry - .NET framework. (n.d.). Retrieved May 26, 2022, from https://nmssanctuaries.blob.core.windows.net/sanctuaries-prod/media/archive/management/pdfs/Day7_INDUSTRY_MANUAL.pdf* 
+
