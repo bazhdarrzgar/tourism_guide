@@ -154,8 +154,7 @@ usable  *[[2]](https://www.ajhtl.com/uploads/7/1/6/3/7163688/article_21_vol_7__1
 * Admin can **Update Person Account**.
 
 *  **View/Edit Places**: Admin **Can view tags and description** of that place.
-*  **View User**: Admin can see the **user details**.
-*  **View Feedback**: Admin can see **users Feedback**.
+
 *  **Logout**: Admin can logout from his account.
 
 ## 3)  ***User***
