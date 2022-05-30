@@ -216,8 +216,8 @@ usable  *[[2]](https://www.ajhtl.com/uploads/7/1/6/3/7163688/article_21_vol_7__1
 
     - NOTE: My website not have any problem just have problem with my security login tracking run it localay in your computer this is faster and less problem.
 
-### TB: 
-**this host work for me i used** [infinityfree.net](infinityfree.net) but not work for me with fixing some error with my page :(**
+### Note: 
+**This host work for me i used** [infinityfree.net](infinityfree.net) but not work for me with fixing some error with my page :(
 
 * problem:
 
