@@ -289,6 +289,15 @@ Answeared By Popular Answear Question: Michael Berkowski (( 260k *45 gold * 430 
 
 * go to your favoir browser and run it using localhost don't forget edit config file in php to your configuratin connection with your server. 
 
+* Admin UserName & Password
+
+    - username: alex
+    - password: 1234
+* Top Admin(super_admin)
+
+    - username: rozhgar
+    - password: rozhgar
+
 * ### Video About My Project
 
     - [Google Drive Link](https://drive.google.com/file/d/1pNbBq-ZmrXtRD9FvhNCP5c0j--t9OALt/view?usp=sharing)
